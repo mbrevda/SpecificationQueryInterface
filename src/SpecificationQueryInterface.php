@@ -8,6 +8,6 @@ interface SpecificationQueryInterface
     public function orX($specification1, $specification2);
     public function not($specification);
     
-    public function equals($field, $value);
-    public function unequal($filed, $value);
+    public function equals($specification);
+    public function unequal($specification);
 }
