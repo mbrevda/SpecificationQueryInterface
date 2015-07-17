@@ -1,0 +1,25 @@
+{
+    "name": "mbrevda/specification-query-interface",
+    "description": "A genereic intreface for operatives and conectives",
+    "authors": [
+        {
+            "name": "Moshe Brevda",
+            "email": "mbrevda@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Mbrevda\\SpecificationQueryInterface\\": "src/",
+            "Mbrevda\\SpecificationQueryInterface\\Tests/": "tests/"
+        }
+    },
+    "scripts": {
+        "test": "phpunit -c tests/phpunit.xml"
+    },
+    "config": {
+        "preferred-install": "dist",
+        "optimize-autoloader": true,
+        "process-timeout": 30
+    }
+}
