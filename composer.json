@@ -11,7 +11,7 @@
     "autoload": {
         "psr-4": {
             "Mbrevda\\SpecificationQueryInterface\\": "src/",
-            "Mbrevda\\SpecificationQueryInterface\\Tests/": "tests/"
+            "Mbrevda\\SpecificationQueryInterface\\Tests\\": "tests/"
         }
     },
     "scripts": {
