@@ -9,5 +9,5 @@ interface SpecificationQueryInterface
     public function not();
     
     public function equals();
-    public function inequals();
+    public function unequal();
 }
